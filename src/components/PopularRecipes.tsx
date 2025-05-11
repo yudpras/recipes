@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function PopularRecipes() {
     return (
-        <div className="w-full bg-white text-gray-900 py-10" id="popular-recipes">
+        <div className="w-full bg-white text-gray-900 py-20" id="popular-recipes">
             <div className="px-[10%]">
                 <h1 className="text-4xl font-bold text-left mb-8">Popular Recipes</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
